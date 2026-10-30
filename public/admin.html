@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Admin | Nellai Property</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"><link rel="stylesheet" href="admin.css"></head><body>
+<header><div class="wrap bar"><div class="logo"><i>🛡️</i><span>Admin Console</span></div>
+<div class="bar-r"><a class="out" href="/">← View Site</a><button id="logout" class="out hidden">Logout</button></div></div></header>
+<main class="wrap adm">
+<section id="login" class="lcard"><h2>Admin Login</h2><p>Sign in to review property submissions</p>
+<form id="lf"><div class="fld"><label>Username</label><input id="u" autocomplete="username" required></div>
+<div class="fld"><label>Password</label><input id="p" type="password" autocomplete="current-password" required></div>
+<div id="lerr"></div><button class="btn">Sign in</button></form></section>
+<section id="dash" class="hidden"><div id="stats" class="stats"></div>
+<div class="head"><div id="tabs" class="seg"></div></div><div id="hf" class="opts hf"></div><div id="content"></div></section>
+</main><script src="admin.js"></script></body></html>
